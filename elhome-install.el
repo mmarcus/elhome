@@ -7,7 +7,7 @@
   (unless (require 'el-get nil t)
     (with-current-buffer
         (url-retrieve-synchronously
-         "https://github.com/dimitri/el-get/raw/master/el-get-install.el")
+         "https://github.com/mmarcus/el-get/raw/master/el-get-install.el")
       (end-of-buffer)
       (eval-print-last-sexp)))
 
