@@ -1,6 +1,12 @@
-# ElHome - the _solvent_ Emacs configuration framework
+# Elhome an Emacs configuration framework
 
-> _"Keep it together"_
+This is a copy of Dave Abrahams' Elhome emacs configuration
+framework. The purpose of this fork is to point at a stable version
+that I can use in my 'production' emacs environment. It points to a
+stable version of the el-get project, as well. See
+"https://github.com/dabrahams/elhome/blob/master/README.markdown" for
+the original.
+
 
 ## Installation
 
@@ -8,7 +14,7 @@ Evaluate this elisp.  You can copy it (to the clipboard or kill
 ring such that ‘C-y’ will insert it) and then ‘M-: C-y RET’
 
      (url-retrieve
-       "https://github.com/dabrahams/elhome/raw/master/elhome-install.el"
+       "https://github.com/mmarcus/elhome/raw/master/elhome-install.el"
        (lambda (s) (end-of-buffer) (eval-print-last-sexp)))
 
 ## Congratulations, ELHOME is now installed!
@@ -22,16 +28,3 @@ README files in each one for more details:
 * `~/.emacs.d/elhome/settings/` - settings for specific modes, including
   the general customization file settings.el
 * `~/.emacs.d/elhome/site-lisp/` - elisp files placed here (or in subdirectories) will be 
-
-Suggestions for more documentation, and especially patches, would be
-most welcome here!
-
-## History
-
-This project came out of my second
-[.emacs bankruptcy](http://emacsblog.org/2007/10/07/declaring-emacs-bankruptcy/),
-because the [first system](http://github.com/dabrahams/elisp) I had
-set up had lost modularity and become too closely coupled with my own
-configuration.
-
--Dave Abrahams
