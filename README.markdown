@@ -1,11 +1,11 @@
-# Elhome an Emacs configuration framework
+# Elhome: an Emacs configuration framework
 
 This is a copy of Dave Abrahams' Elhome emacs configuration
 framework. The purpose of this fork is to point at a stable version
-that I can use in my 'production' emacs environment. It points to a
-stable version of the el-get project, as well. See
-"https://github.com/dabrahams/elhome/blob/master/README.markdown" for
-the original.
+that I can use in my 'production' emacs environment. It points to my
+[stable version of the el-get project](https://github.com/mmarcus/el-get),
+as well. For more details, see
+[the original documentation](https://github.com/dabrahams/elhome/blob/master/README.markdown).
 
 
 ## Installation
